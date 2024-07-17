@@ -1,0 +1,5 @@
+p=int(input("enter principle amount"))
+y=int(input("enter years"))
+r=int(input("enter rate of intrest"))
+a=(p)*(1+0.01*r)*(y)
+print("simple intrest",a)
