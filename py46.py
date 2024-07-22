@@ -1,4 +1,4 @@
-'''
+#pattern
 n=5
 k=5
 for i in range(n):
@@ -54,7 +54,7 @@ for i in range(n):
         print("*",end=" ")
     h=h+1
     print()
-'''
+
 n=5
 k=5
 l=k-1
@@ -64,7 +64,7 @@ a=5
 p=1
 q=0
 for i in range(n-1):
-    for j in range(a):
+    for j in range(a-1):
         print(" ",end=" ")
     a=a-1
     for r in range(p):
@@ -75,7 +75,7 @@ for i in range(n-1):
     q=q+1
     print()
 for i in range(n):
-    for  f in range(h):
+    for  f in range(h-1):
         print(" ",end=" ")
     h=h+1
     for j in range(k):
