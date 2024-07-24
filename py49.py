@@ -5,7 +5,7 @@ print(x) #[[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]]
 y=[i for i in range (5)]
 print(y) #[0, 1, 2, 3, 4]
 
-h=[[i] for i in range (5)]
+h=[[i] for i in range (5)] # for nested list [[i]]
 print(h) #[[0], [1], [2], [3], [4]]
 
 z=[[i,j] for i in range(5) for j in range(3)]#nested list
