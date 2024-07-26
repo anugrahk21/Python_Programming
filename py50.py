@@ -70,3 +70,23 @@ lenn=len(un) #length of set
 print(lenn)
 print(inter)
 
+
+n=int(input(""))
+s=set(map(int,input().split()))
+no=int(input())
+for i in range(no):
+    op=list(map(str,input().split()))
+    n1=int(op[1])
+    cm=op[0]
+    s2=set(map(int,input().split()))
+    if cm=="intersection_update":
+        s.intersection_update(s2)    #updates the set with intersection set of both set
+    elif cm=="update":
+        s.update(s2)      #updates the set with the given elements at the last positions
+    elif cm=="difference_update":
+        s.difference_update(s2)       #updates the set with the difference set of both set
+    elif cm=="symmetric_difference_update":
+        s.symmetric_difference_update(s2)     #updates the set with the uncommon elements of both the set
+ss=sum(s)   #sum of the set elements
+print(ss)
+
