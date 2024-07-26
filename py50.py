@@ -34,3 +34,23 @@ for i in range(a):
     j.add(h)
 k=len(j)
 print(k)
+
+
+
+n = int(input())
+s = set(map(int, input().split()))
+d=int(input())
+for _ in range(d):
+    j=input().split()
+    cmd=j[0]
+    if len(j)==2:
+        e=int(j[1])
+    if cmd=="remove":
+        s.remove(e)     #removes the element in it....error if not found
+    elif cmd=="discard":
+        s.discard(e)      #removes the element in it....no error if not found
+    elif cmd=="pop":
+        s.pop()      #last element removed if nothing given as parameter
+
+sum1=sum(s)   #sum of elements
+print(sum1)
