@@ -54,3 +54,12 @@ for _ in range(d):
 
 sum1=sum(s)   #sum of elements
 print(sum1)
+
+
+a=int(input(""))
+j=set(map(int, input().split()))
+a2=int(input())
+j1=set(map(int, input().split()))
+un=j.union(j1) #joins the both sets removing duplicate elements
+lenn=len(un) #length of set
+print(lenn)
