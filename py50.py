@@ -63,6 +63,8 @@ j1=set(map(int, input().split()))
 un=j.union(j1) #joins the both sets removing duplicate elements
 inter=j.intersection(j1) #elements which are in both sets(common elements)
 diff=j.difference(j1)  #difference(j-j1)...elements of j1 which are not present in j.(uncommon elements)
+symmdiff=j.symmetric_difference(j1) #uncommon elements in both the sets...elements which are not in common in both the sets.
+print(symmdiff)
 print(diff)
 lenn=len(un) #length of set
 print(lenn)
