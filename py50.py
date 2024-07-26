@@ -61,5 +61,7 @@ j=set(map(int, input().split()))
 a2=int(input())
 j1=set(map(int, input().split()))
 un=j.union(j1) #joins the both sets removing duplicate elements
+inter=j.intersection(j1) #elements which are in both sets(common elements)
 lenn=len(un) #length of set
 print(lenn)
+print(inter)
