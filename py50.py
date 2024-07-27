@@ -90,3 +90,21 @@ for i in range(no):
 ss=sum(s)   #sum of the set elements
 print(ss)
 
+
+#subset
+
+a=int(input())
+for i in range(a):    #number of tes cases
+    sl1=int(input())
+    s1=set(map(str,input().split()))
+    sl2=int(input())
+    s2=set(map(str,input().split()))
+    k=True
+    for i in s1:
+        if i in s2:
+            k=True
+        else:
+            k=False
+            break
+    print(k)
+
