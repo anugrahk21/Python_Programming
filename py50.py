@@ -108,3 +108,39 @@ for i in range(a):    #number of tes cases
             break
     print(k)
 
+
+#superset
+
+sm = set(map(str, input().split()))
+a = int(input())
+k = True
+
+for _ in range(a):
+    s1 = set(map(str, input().split()))
+    # Check if sm is a proper superset of s1
+    if not (sm.issuperset(s1) and sm != s1): #sm should not be equal to s1
+        k = False
+        break
+
+print(k)
+
+#long method
+sm=set(map(str,input().split()))
+a=int(input())
+k=True
+for i in range(a):
+    s1=set(map(str,input().split()))
+    if k==False:
+        break
+    for i in s1:
+        if i in sm:
+            k=True
+        elif i not in sm:
+            k=False
+            break
+    if sm==s1:
+        k=False
+        break
+
+print(k)
+
