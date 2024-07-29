@@ -1,3 +1,4 @@
+#sorting bases on kth element of the list of subset
 if __name__ == '__main__':
     nm = input().split()
 
