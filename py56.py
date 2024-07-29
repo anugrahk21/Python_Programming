@@ -11,6 +11,7 @@ if __name__ == '__main__':
         arr.append(list(map(int, input().rstrip().split())))
 
     k = int(input())
+    #key specifies on what basis we need to sort
     arr.sort(key=lambda x: x[k]) #lambda x: x[k] is an anonymous function (lambda function) that 
                          #takes one argument x (which will be a sublist) and returns the k-th element of that sublist.
     for i in range(len(arr)):
