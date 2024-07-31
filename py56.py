@@ -21,4 +21,4 @@ if __name__ == '__main__':
         print()
     # or 
     for i in arr:
-        print(*i)   #removes the list brackets
+        print(*i)   #removes the list brackets and prints inner list as a string
