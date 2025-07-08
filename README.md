@@ -1,6 +1,6 @@
 # 🐍✨ Python Playground: Creative Coding & Useful Scripts! ✨🐍
 
-Welcome to the **Python Playground**—a dynamic collection of Python programs, handy utilities, and algorithmic gems. Whether you’re a beginner or a seasoned coder, you’ll find something to play with and learn from here.  
+Welcome to the **Python Playground**—a dynamic collection of My Python programs, handy utilities, and algorithmic gems. Whether you’re a beginner or a seasoned coder, you’ll find something to play with and learn from here.  
 Unleash your curiosity, code with creativity, and let Python do the magic! 🚀
 
 ---
