@@ -5,31 +5,10 @@ Unleash your curiosity, code with creativity, and let Python do the magic! 🚀
 
 ---
 
-## 📜 Table of Contents
-- [🎯 Overview](#-overview)
-- [🚀 Topics Covered](#-topics-covered)
-- [🛠️ How to Use](#-how-to-use)
-- [💡 Sample Program List](#-sample-program-list)
-- [🐞 Troubleshooting](#-troubleshooting)
-- [🤝 Contributing](#-contributing)
-- [🔗 Connect & Collaborate](#-connect--collaborate)
-
----
-
 ## 🎯 Overview
 
 This repository is a curated set of simple and practical Python programs.  
 Scripts are organized for easy understanding and quick usage—perfect for learners, tinkerers, and pros!
-
----
-
-## 🚀 Topics Covered
-
-- 📗 **Basic Programs**
-- 📄 **File Handling**
-- ⚙️ **Algorithms**
-- 🧰 **Small Utilities**
-- ...and more Python fun!
 
 ---
 
@@ -49,17 +28,6 @@ Scripts are organized for easy understanding and quick usage—perfect for learn
 3. **Requirements**  
     - Python 3.6 or higher recommended.
     - Some scripts may require extra packages (see script comments).
-
----
-
-## 💡 Sample Program List
-
-- `hello_world.py` — Classic “Hello, World!”
-- `file_reader.py` — Read and display file contents
-- `sort_algorithms.py` — Sorting algorithms demo
-- `calculator.py` — Simple command-line calculator
-- ...And lots more!  
-(Explore the repo for the full list!)
 
 ---
 
